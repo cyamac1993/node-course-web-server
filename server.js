@@ -74,6 +74,12 @@ res.send({
 });
 });
 
+app.get('/Anis',(req,res)=>{
+res.render('anis.hbs',{
+title: 'deruba'
+});
+});
+
 app.listen(port,()=>{
  console.log(`server is loading at port ${port}`);
 });
